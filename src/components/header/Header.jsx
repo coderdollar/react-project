@@ -6,26 +6,34 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
+
 
 const header = () => {
   return (
     <div>
         <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
+        <Link to = "/">
         <Navbar.Brand href="#home"><img src={logo}></img></Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Menú</Nav.Link>
-            <NavDropdown title="Sucursales" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Buenos Aires</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Cordoba
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Rosario</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Santa Fé
-              </NavDropdown.Item>
+            <Nav.Link href="#home">Inicio</Nav.Link> 
+            <NavDropdown title="Menu" id="basic-nav-dropdown">
+              <Link to = "/categoria/entradas"> 
+                <NavDropdown.Item href="#action/3.1">Entradas</NavDropdown.Item> 
+              </Link>
+              <Link to = "/categoria/hamburguesas"> 
+              <NavDropdown.Item href="#action/3.2">Hamburguesas</NavDropdown.Item>
+              </Link>
+              <Link to = "/categoria/feasts">
+              <NavDropdown.Item href="#action/3.3">Costillas</NavDropdown.Item>
+              </Link>
+              <Link to = "/categoria/bebidas">
+              <NavDropdown.Item href="#action/3.4">Bebidas</NavDropdown.Item>
+              </Link>
             </NavDropdown>
     
             <Nav.Link href="#home">Gift Cards</Nav.Link>
