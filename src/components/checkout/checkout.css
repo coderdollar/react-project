@@ -1,0 +1,45 @@
+
+.titulo-orden{
+    font-family: "Bebas Neue", sans-serif;
+    color: brown;
+    font-size: 2.5rem;
+    text-align:  center;
+    margin-top: 2rem;
+}
+
+.subtitulo{
+    text-align:  center;
+}
+
+.contenedor-checkout{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.video{
+    width: 350px;
+}
+
+.containerGracias{
+    margin-inline: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.numOrden{
+    text-align: center;
+}
+
+.bi-emoji-laughing-fill{
+    font-size: 5rem;
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+}

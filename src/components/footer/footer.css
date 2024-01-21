@@ -1,0 +1,49 @@
+.footer{
+    background-color: #404142;
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.structure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.footer-right{
+    color: lightgray;
+    line-height: 1rem;
+}
+
+.disfruta{
+    font-size: 1rem;
+}
+
+.bi-facebook, .bi-instagram{
+    font-size: 2.3rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+.copyright{
+    font-size: 12px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+

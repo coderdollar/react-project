@@ -1,5 +1,8 @@
 .tarjetitas{
+    margin: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }

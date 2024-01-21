@@ -1,0 +1,58 @@
+.container-checkout{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title-order{
+    font-family: "Bebas Neue", sans-serif;
+    color: brown;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container-cards{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-title{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.total{
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.containerNoAgregado{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-content: center;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: brown;
+    padding: 2rem;
+}
+
+.noAgregado{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+.bi-emoji-frown-fill{
+    font-size: 4rem;
+    color: brown;
+    text-align: center;
+}

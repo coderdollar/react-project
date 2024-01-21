@@ -12,6 +12,7 @@ const ItemList = ( {plates} ) => {
                     <div>
                         <Item
                         key={p.id}
+                        imagen = {p.imagen}
                         nombre = {p.nombre}
                         descripcion={p.descripcion}
                         id={p.id}
